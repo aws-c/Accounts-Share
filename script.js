@@ -52,7 +52,7 @@ function shareAccounts() {
 
     if(accounts.length > 0){
         var encrypted = btoa(JSON.stringify(dataToEncrypt));
-        var shareLink = window.location.href.replace('index.html', '') + 'get.html#' + encrypted;
+        var shareLink = window.location.href.replace('index.html', '') + 'get#' + encrypted;
         var outputBox = document.getElementById('outputBox');
         outputBox.textContent = shareLink;
     } else {
