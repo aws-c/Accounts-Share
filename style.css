@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #212530;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #2c2f33;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+}
+
+.account-box {
+    background-color: #32363a;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #3a3f44;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0;
+    border: 1px solid #444;
+    background: #292b2f;
+    color: #fff;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+.output-box {
+    background: #292b2f;
+    border: 1px solid #444;
+    padding: 15px;
+    color: #fff;
+    word-wrap: break-word;
+    margin-top: 20px;
+    border-radius: 4px;
+    font-size: 0.9em; /* Adjust font size for readability */
+}
+
+.copy-btn {
+    background-color: #007bff;
+    padding: 12px 15px; /* Slightly larger padding for better interaction */
+    margin-top: 10px;
+}
+
+.copy-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style to make the output more prominent */
+.output-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Additional styling for the copy button */
+button.copy-btn {
+    width: auto; /* Auto width for better sizing */
+    display: inline-block; /* Allows the button to not stretch full width */
+    margin: 0 auto; /* Center the button */
+}
+
+
+.output-box:hover {
+    border-color: #007bff; /* Change the color to your preference */
+    box-shadow: 0 0 8px #007bff; /* Optional: adds a glow effect */
+}
+
+
+.input-copy-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-copy-group input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px; /* Spacing between input and button */
+}
+
+.copy-btn {
+    padding: 7px 10px; /* Adjust padding for better alignment with the input */
+}
+
+
+/* EXTRA */
+
+.account-box:hover, .output-box:hover {
+    border-color: #00ffea; /* Neon green color */
+    box-shadow: 0 0 15px #00ffea, 0 0 20px #00ffea; /* Two layers of glow for a more intense effect */
+}
+
+

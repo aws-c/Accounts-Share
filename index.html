@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accounts Share</title>
+    <link rel="icon" href="C:\Users\nilma\Desktop\New folder (2)\Accounts Share.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Accounts Share</h1>
+		<!-- Add this in your .container div, above the #accountContainer -->
+<div class="input-group">
+    <label>Page Title:</label>
+    <input type="text" id="pageTitle" placeholder="e.g., Google Accounts">
+</div>
+
+        <div id="accountContainer">
+            <!-- Account boxes will be added here -->
+        </div>
+<button onclick="addAccount()" class="add-btn"><span class="icon">➕</span>Add Another Account</button>
+<button onclick="shareAccounts()" class="share-btn">Share Accounts</button>
+<p id="shareLink"></p>
+    </div>
+	<!-- Output Box for Encrypted URL -->
+<div class="output-container">
+    <div class="output-box" id="outputBox"></div>
+    <button onclick="copyToClipboard()" class="copy-btn">Copy URL</button>
+</div>
+<!-- Output Box for Encrypted URL -->
+
+    <script src="script.js"></script>
+</body>
+</html>
